@@ -7,8 +7,28 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
+    name: 'Home2',
+    component: () => import('../views/Home2.vue')
+  },
+  {
+    path: '/Homepractice',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/blogBody',
+    name: 'blogBody',
+    component: () => import('../views/blog crud/blogBody.vue')
+  },
+  {
+    path: '/addBlog/:id',
+    name: 'addBlog',
+    component: () => import('../views/blog crud/addBlog.vue')
+  },
+  {
+    path: '/pdfPage/:id',
+    name: 'pdfPage',
+    component: () => import('../views/blog crud/pdfPage.vue')
   },
   {
     path: '/about',
