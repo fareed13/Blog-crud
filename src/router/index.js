@@ -31,6 +31,11 @@ const routes = [
     component: () => import('../views/blog crud/pdfPage.vue')
   },
   {
+    path: '/tablePdf',
+    name: 'tablePdf',
+    component: () => import('../views/blog crud/tablePdf.vue')
+  },
+  {
     path: '/about',
     name: 'About',
     // route level code-splitting

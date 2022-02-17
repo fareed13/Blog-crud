@@ -1,33 +1,24 @@
 <template>
   <div class="Blog-parent">
-      <!-- <blogBody /> -->
+    <!-- <blogBody /> -->
   </div>
 </template>
 
 <script>
 // import blogBody from './blogBody.vue'
 export default {
-  name: 'blogHome',
+  name: "blogHome",
   components: {
-      // blogBody,
-    },
-  props: {
-    
+    // blogBody,
   },
+  props: {},
   data() {
-    return {
-      
-      }
-      
+    return {};
   },
-  methods:{
-    
-  }
-  
-}
+  methods: {},
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-
 </style>
